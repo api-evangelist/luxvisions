@@ -1,8 +1,25 @@
 aid: luxvisions
-name: Luxvisions
-description: 'Luxvisions is a company surfaced as a portfolio company of hongshan and added to the API
-  Evangelist network as a stub for enrichment. Sector: technology. This profile is a lead awaiting the
-  enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/luxvisions.png
+name: Luxvisions Innovation Limited
+description: 'Luxvisions Innovation Limited is a camera module and imaging technology manufacturer
+  established in March 2018, headquartered in Hong Kong with operations in Guangzhou, Shenzhen and
+  Shangrao, China. The company designs and produces optical camera modules and audio-video integration
+  technology for mobile phones, tablets, PCs and notebooks, automotive systems, AIOT devices, and
+  3D/ToF VR/AR/MR applications, and states it launched the industry''s first triple camera module for
+  mobile phones. It was surfaced as a portfolio company of Hongshan (HongShan Capital) and added to the
+  API Evangelist network. As a hardware/component manufacturer, Luxvisions publishes no public developer
+  portal, API, SDK, or documentation surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/luxvisions/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,32 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Technology
+- Camera Modules
+- Imaging
+- Semiconductors
+- Hardware
+- AIOT
+- Automotive
+- 3D Sensing
 apis: []
+common:
+- type: DomainSecurity
+  url: security/luxvisions-domain-security.yml
+- type: Website
+  url: https://www.luxvisions-inno.com/en-index.html
+- type: About
+  url: https://www.luxvisions-inno.com/en-aboutus.html
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
