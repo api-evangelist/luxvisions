@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/luxvisions.png
-name: Luxvisions Innovation Limited
+name: Luxvisions Innovation
 description: 'Luxvisions Innovation Limited is a camera module and imaging technology manufacturer
   established in March 2018, headquartered in Hong Kong with operations in Guangzhou, Shenzhen and
   Shangrao, China. The company designs and produces optical camera modules and audio-video integration
@@ -79,3 +79,4 @@ x-enrichment:
   status: enriched
   artifacts_added: 1
   pass: local-v1
+x-legal-name: Luxvisions Innovation Limited
